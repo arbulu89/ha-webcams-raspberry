@@ -1,0 +1,9 @@
+raspberry1:
+    host: 192.168.1.44
+    user: root
+    passwd: linux
+
+raspberry2:
+    host: 192.168.1.46
+    user: root
+    passwd: linux

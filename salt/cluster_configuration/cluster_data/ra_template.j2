@@ -1,0 +1,7 @@
+primitive motion systemd:motion \
+   op start interval=0 timeout=60 \
+   op stop interval=0 timeout=90 \
+   op monitor interval=10 \
+   meta target-role=Started
+
+colocation col_motion 2000: admin-ip:Started motion:Started

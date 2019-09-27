@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# vim: ft=jinja
+
+{% import_yaml "motion/defaults.yaml" as defaults %}
+{% set motion = salt['pillar.get']('motion', default=defaults.motion, merge=True) %}

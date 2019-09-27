@@ -1,0 +1,2 @@
+habootstrap-formula:
+  pkg.installed

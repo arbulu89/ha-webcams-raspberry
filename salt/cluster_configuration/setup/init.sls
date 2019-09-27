@@ -1,0 +1,2 @@
+include:
+  - .ra_template
